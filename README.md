@@ -1,5 +1,36 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## critical
+
+Config browswer to work with BrowserRouter
+
+
+## desc
+
+Navigate around separate pages in our app {react-router}
+allow user to login/logout {Google-OAuth}
+handle forms in redux
+CRUD operations in React/Redux
+error handling
+
+## browser router
+
+three types - which part of URL does it focus on for nav purposes
+!!! BrosweserRouter --> 'everything after TLD: Top Level Domain'
+  server differs from traditional html requesting in that it doesn't return 404 when page not found.  Instead,
+  returns index.html.  Why?  Server doesn't know routes, handled in browser... need production server set up like react dev server...
+  send unknown route requests to public/index.js !!!
+HashRouter --> 'everything after #. react-router automatically places # in URL'
+MemoryRouter --> 'URL is NOT used to track navigation' URL in browser appears to remain TLD while navigating
+
+## debug
+
+Redux DevTools
+browserURL: http://localhost:3000/?debug_session=%3Csome_string%3E
+  tells R devTools to start debug session... default is to dump data on refresh... dev session sets data to save between refreshes
+
+!!! end my comments !!!
+
 ## Available Scripts
 
 In the project directory, you can run:
